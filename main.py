@@ -1,4 +1,3 @@
-from model import ListaDeLetras
+from model import App, ListaDeLetras
 
-listaLetras = ListaDeLetras('texto.txt')
-listaLetras.exibir()
+app = App('texto.txt')
